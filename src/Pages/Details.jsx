@@ -7,7 +7,7 @@ const Details = () => {
   const [prevDates, setPrevDates] = React.useState([]);
   const [nextDates, setNextDates] = React.useState([]);
 
-  const days  = ["S", "M", "T", "W", "T", "F", "S"];
+  
 
 
 
@@ -47,11 +47,12 @@ const next7Days = () => {
   
 }
 
+// eslint-disable-next-line
 
   React.useEffect(() => {
     setPrevDates(last9Days());
     setNextDates(next7Days());
-    // eslint-disable-next-line
+    
     
   }, [])
 
