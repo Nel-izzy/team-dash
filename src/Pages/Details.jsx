@@ -50,7 +50,9 @@ const next7Days = () => {
 // eslint-disable-next-line
 
   React.useEffect(() => {
+    // eslint-disable-next-line
     setPrevDates(last9Days());
+    // eslint-disable-next-line
     setNextDates(next7Days());
     
     
