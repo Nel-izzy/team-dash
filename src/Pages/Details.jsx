@@ -52,6 +52,7 @@ const next7Days = () => {
   React.useEffect(() => {
     setPrevDates(last9Days());
     setNextDates(next7Days());
+    // eslint-disable-next-line
     
   }, [])
 
@@ -69,15 +70,15 @@ const next7Days = () => {
         <div className="menu-icons">
           <p className="menu-icons-p">
             <span>
-              <i class="bi bi-chat-left-text-fill"></i>
+              <i className="bi bi-chat-left-text-fill"></i>
             </span>
             <span>
-              <i class="bi bi-bell-fill"></i>
+              <i className="bi bi-bell-fill"></i>
             </span>
             <span> |</span>
             <span>RonasIT</span>
             <span>
-              <i class="bi bi-chevron-down"></i>
+              <i className="bi bi-chevron-down"></i>
             </span>
           </p>
         </div>
@@ -89,9 +90,9 @@ const next7Days = () => {
 
           <div className="second-row-div">
             <div className="text-muted">56%</div>
-            <div class="progress" style={{ height: "5px", width: "100px" }}>
+            <div className="progress" style={{ height: "5px", width: "100px" }}>
               <div
-                class="progress-bar"
+                className="progress-bar"
                 role="progressbar"
                 style={{ width: "56px" }}
                 aria-valuenow="56"
@@ -103,21 +104,21 @@ const next7Days = () => {
         <div className="second-row-second">
           <div>
             <a href="#">
-              <i class="bi bi-plus"></i> Invite
+              <i className="bi bi-plus"></i> Invite
             </a>
           </div>
           <div>
             <span className="second-row-second-p">
-              <i class="bi bi-person-circle pers1"></i>
+              <i className="bi bi-person-circle pers1"></i>
             </span>
             <span className="second-row-second-p">
-              <i class="bi bi-person-circle pers2"></i>
+              <i className="bi bi-person-circle pers2"></i>
             </span>
             <span className="second-row-second-p">
-              <i class="bi bi-person-circle pers3"></i>
+              <i className="bi bi-person-circle pers3"></i>
             </span>
             <span className="second-row-second-p">
-              <i class="bi bi-person-circle pers4"></i>
+              <i className="bi bi-person-circle pers4"></i>
             </span>
           </div>
         </div>
@@ -128,17 +129,17 @@ const next7Days = () => {
           <h5>
             February 2021{" "}
             <span>
-              <i class="bi bi-chevron-left"></i>
+              <i className="bi bi-chevron-left"></i>
             </span>
             <span>
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </span>
           </h5>
         </div>
 
         <div className="second-div">
           <div>
-            <i class="bi bi-search"></i>
+            <i className="bi bi-search"></i>
           </div>
           <div>
             <select>
