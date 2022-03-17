@@ -5,56 +5,50 @@ const Sidebar = () => {
     <div className="sidebar-container">
       <div className="sidebar-header">
         <div>
-          <i className="bi bi-stack"></i>
+          <i class="bi bi-stack"></i>
         </div>
 
         <div>
           <h3 className="sidebar-header-h3">PJ</h3>
         </div>
         <div>
-          <i className="bi bi-arrow-bar-left"></i>
+          <i class="bi bi-arrow-bar-left"></i>
         </div>
       </div>
       <ul className="sidebar-ul">
         <li className="sidebar-li">
           <i className="bi bi-ui-checks-grid"></i>
-          
-          <a href="/" className="sidebar-a">
+          <a href="#" className="sidebar-a">
             Dashboard
           </a>
         </li>
         <li className="sidebar-li">
-          <i className="bi bi-bar-chart"></i>
-          
-          <a href="/" className="sidebar-a">
+          <i class="bi bi-bar-chart"></i>
+          <a href="" className="sidebar-a">
             Analytics
           </a>
         </li>
         <li className="sidebar-li">
-          <i className="bi bi-folder-fill"></i>
-          
-          <a href="/" className="sidebar-a">
+          <i class="bi bi-folder-fill"></i>
+          <a href="" className="sidebar-a">
             Projects
           </a>
         </li>
         <li className="sidebar-li">
-          <i className="bi bi-stopwatch-fill"></i>
-          
-          <a href="/" className="sidebar-a">
+          <i class="bi bi-stopwatch-fill"></i>
+          <a href="" className="sidebar-a">
             Tracking
           </a>
         </li>
         <li className="sidebar-li">
-          <i className="bi bi-clock-history"></i>
-          
-          <a href="/" className="sidebar-a">
+          <i class="bi bi-clock-history"></i>
+          <a href="" className="sidebar-a">
             History
           </a>
         </li>
         <li className="sidebar-li">
           <i className="bi bi-gear-fill"></i>
-          
-          <a href="/" className="sidebar-a">
+          <a href="" className="sidebar-a">
             Settings
           </a>
         </li>
@@ -70,11 +64,10 @@ const Sidebar = () => {
           <i className="bi bi-plus-circle-fill"></i>
         </div>
       </div>
-      
 
       <div className="avatar-bottom">
         <div>
-          <i className="bi bi-person-circle"></i>
+          <i class="bi bi-person-circle"></i>
         </div>
         <div className="avatar-p">
           <p>
@@ -83,7 +76,7 @@ const Sidebar = () => {
           </p>
         </div>
         <div className="chevron">
-          <i className="bi bi-chevron-up"></i>
+          <i class="bi bi-chevron-up"></i>
         </div>
       </div>
     </div>

@@ -3,14 +3,13 @@ import Persons from "./Persons";
 
 const Details = () => {
 
+  
   const [prevDates, setPrevDates] = React.useState([]);
   const [nextDates, setNextDates] = React.useState([]);
 
   const days  = ["S", "M", "T", "W", "T", "F", "S"];
 
-  function formatDay(){
 
-  }
 
   function formatDate(date){
 
@@ -70,15 +69,15 @@ const next7Days = () => {
         <div className="menu-icons">
           <p className="menu-icons-p">
             <span>
-              <i className="bi bi-chat-left-text-fill"></i>
+              <i class="bi bi-chat-left-text-fill"></i>
             </span>
             <span>
-              <i className="bi bi-bell-fill"></i>
+              <i class="bi bi-bell-fill"></i>
             </span>
             <span> |</span>
             <span>RonasIT</span>
             <span>
-              <i className="bi bi-chevron-down"></i>
+              <i class="bi bi-chevron-down"></i>
             </span>
           </p>
         </div>
@@ -90,9 +89,9 @@ const next7Days = () => {
 
           <div className="second-row-div">
             <div className="text-muted">56%</div>
-            <div className="progress" style={{ height: "5px", width: "100px" }}>
+            <div class="progress" style={{ height: "5px", width: "100px" }}>
               <div
-                className="progress-bar"
+                class="progress-bar"
                 role="progressbar"
                 style={{ width: "56px" }}
                 aria-valuenow="56"
@@ -104,21 +103,21 @@ const next7Days = () => {
         <div className="second-row-second">
           <div>
             <a href="#">
-              <i className="bi bi-plus"></i> Invite
+              <i class="bi bi-plus"></i> Invite
             </a>
           </div>
           <div>
             <span className="second-row-second-p">
-              <i className="bi bi-person-circle pers1"></i>
+              <i class="bi bi-person-circle pers1"></i>
             </span>
             <span className="second-row-second-p">
-              <i className="bi bi-person-circle pers2"></i>
+              <i class="bi bi-person-circle pers2"></i>
             </span>
             <span className="second-row-second-p">
-              <i className="bi bi-person-circle pers3"></i>
+              <i class="bi bi-person-circle pers3"></i>
             </span>
             <span className="second-row-second-p">
-              <i className="bi bi-person-circle pers4"></i>
+              <i class="bi bi-person-circle pers4"></i>
             </span>
           </div>
         </div>
@@ -129,17 +128,17 @@ const next7Days = () => {
           <h5>
             February 2021{" "}
             <span>
-              <i className="bi bi-chevron-left"></i>
+              <i class="bi bi-chevron-left"></i>
             </span>
             <span>
-              <i className="bi bi-chevron-right"></i>
+              <i class="bi bi-chevron-right"></i>
             </span>
           </h5>
         </div>
 
         <div className="second-div">
           <div>
-            <i className="bi bi-search"></i>
+            <i class="bi bi-search"></i>
           </div>
           <div>
             <select>
@@ -150,7 +149,7 @@ const next7Days = () => {
       </div>
 
       <div className="fourth-row">
-        <p>
+      <p>
           T<span>{prevDates[0]}</span>
         </p>
         <p>

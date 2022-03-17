@@ -8,14 +8,14 @@ const Persons = () => {
           <div className="person">
             <p>
               {" "}
-              <i className="bi bi-person-circle"></i>
+              <i class="bi bi-person-circle"></i>
             </p>
             <p>
               Finna A.{" "}
               <span className=" text-muted avatar-span">UX Designer</span>
             </p>
             <p>
-              <i className="bi bi-three-dots-vertical"></i>
+              <i class="bi bi-three-dots-vertical"></i>
             </p>
           </div>
         </div>
@@ -23,7 +23,7 @@ const Persons = () => {
         <div className="col-md-8">
           <div className="main-activity">
             <div id="row1-span1">
-              <i className="bi bi-record-circle"></i> Flow Swift Transfer
+              <i class="bi bi-record-circle"></i> Flow Swift Transfer
             </div>
             <div id="row1-span2">
               <span>68%</span>
@@ -39,14 +39,14 @@ const Persons = () => {
           <div className="person ">
             <p>
               {" "}
-              <i className="bi bi-person-circle"></i>
+              <i class="bi bi-person-circle"></i>
             </p>
             <p>
               Emma F.{" "}
               <span className=" text-muted avatar-span">UI Designer</span>
             </p>
             <p>
-              <i className="bi bi-three-dots-vertical"></i>
+              <i class="bi bi-three-dots-vertical"></i>
             </p>
           </div>
         </div>
@@ -69,14 +69,14 @@ const Persons = () => {
           <div className="person">
             <p>
               {" "}
-              <i className="bi bi-person-circle"></i>
+              <i class="bi bi-person-circle"></i>
             </p>
             <p>
               Alex B.{" "}
               <span className=" text-muted avatar-span">UX Analyst</span>
             </p>
             <p>
-              <i className="bi bi-three-dots-vertical"></i>
+              <i class="bi bi-three-dots-vertical"></i>
             </p>
           </div>
         </div>
@@ -84,7 +84,7 @@ const Persons = () => {
         <div className="col-md-8">
           <div className="main-activity">
             <div id="row3-span1">
-              <i className="bi bi-record-circle"></i> User Profile
+              <i class="bi bi-record-circle"></i> User Profile
             </div>
             <div id="row3-span2">
               <span>68%</span>
@@ -100,14 +100,14 @@ const Persons = () => {
           <div className="person">
             <p>
               {" "}
-              <i className="bi bi-person-circle"></i>
+              <i class="bi bi-person-circle"></i>
             </p>
             <p>
               Cody D.{" "}
               <span className=" text-muted avatar-span">UX Analyst</span>
             </p>
             <p>
-              <i className="bi bi-three-dots-vertical"></i>
+              <i class="bi bi-three-dots-vertical"></i>
             </p>
           </div>
         </div>
@@ -115,7 +115,7 @@ const Persons = () => {
         <div className="col-md-8">
           <div className="main-activity">
             <div id="row4-span1">
-              <i className="bi bi-record-circle"></i> Transfers by phone
+              <i class="bi bi-record-circle"></i> Transfers by phone
             </div>
             <div id="row4-span2">
               <span>68%</span>
@@ -139,7 +139,7 @@ const Persons = () => {
               </span>
             </p>
             <p>
-              <i className="bi bi-three-dots-vertical"></i>
+              <i class="bi bi-three-dots-vertical"></i>
             </p>
           </div>
         </div>
@@ -147,7 +147,7 @@ const Persons = () => {
         <div className="col-md-8">
           <div className="main-activity">
             <div id="row5-span1">
-              <i className="bi bi-record-circle"></i> Chatbot
+              <i class="bi bi-record-circle"></i> Chatbot
             </div>
             <div id="row5-span2">
               <span>77%</span>
@@ -162,14 +162,14 @@ const Persons = () => {
           <div className="person">
             <p>
               {" "}
-              <i className="bi bi-person-circle"></i>
+              <i class="bi bi-person-circle"></i>
             </p>
             <p>
               Erik F.{" "}
               <span className=" text-muted avatar-span">UX Designer</span>
             </p>
             <p>
-              <i className="bi bi-three-dots-vertical"></i>
+              <i class="bi bi-three-dots-vertical"></i>
             </p>
           </div>
         </div>
@@ -177,7 +177,7 @@ const Persons = () => {
         <div className="col-md-8">
           <div className="main-activity">
             <div id="row6-span1">
-              <i className="bi bi-record-circle"></i> Transaction Analytics
+              <i class="bi bi-record-circle"></i> Transaction Analytics
             </div>
             <div id="row6-span2">
               <span>42%</span>
@@ -191,14 +191,14 @@ const Persons = () => {
           <div className="person">
             <p>
               {" "}
-              <i className="bi bi-person-circle"></i>
+              <i class="bi bi-person-circle"></i>
             </p>
             <p>
               Anna S.{" "}
               <span className=" text-muted avatar-span">UI Designer</span>
             </p>
             <p>
-              <i className="bi bi-three-dots-vertical"></i>
+              <i class="bi bi-three-dots-vertical"></i>
             </p>
           </div>
         </div>
@@ -206,7 +206,7 @@ const Persons = () => {
         <div className="col-md-8">
           <div className="main-activity">
             <div id="row7-span1">
-              <i className="bi bi-record-circle"></i> Settings
+              <i class="bi bi-record-circle"></i> Settings
             </div>
             <div id="row7-span2">
               <span>41%</span>
