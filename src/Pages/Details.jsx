@@ -105,7 +105,7 @@ const next7Days = () => {
 
         <div className="second-row-second">
           <div>
-            <a href="#">
+            <a href="/">
               <i class="bi bi-plus"></i> Invite
             </a>
           </div>
